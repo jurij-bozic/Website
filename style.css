@@ -79,6 +79,7 @@ a {
   display: grid;
   grid-template-columns: 50px 100px 180px 150px;
   grid-template-rows: 50px 50px 50px;
+  text-align: left;
 }
 
 #table-p {
