@@ -173,6 +173,41 @@ border: solid 2.5px #F0A202;
 /* ------------------- START of RESPONSIVE DESIGN PART ----------------- */
 
 @media only screen and (max-width: 400px) {
+	
+	  #navig {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #656370;
+    opacity: 1;
+    -webkit-box-shadow: 0 8px 6px -5.8px black;
+  	   -moz-box-shadow: 0 8px 6px -5.8px black;
+  	        box-shadow: 0 8px 6px -5.8px black;
+            z-index: 1;
+  }
+
+  #buttons-all {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+  }
+
+  .button-nav {
+    margin-right: 40px;
+    margin-left: 40px;
+    border-style: none;
+    padding: 10px;
+    border-radius: 9%;
+    width: 100px;
+    text-color: black;
+    font-size: 25px;
+
+
+  }
+
 
   #contacts-id {
   background: #656370;
