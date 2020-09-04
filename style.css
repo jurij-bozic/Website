@@ -1,15 +1,18 @@
 body {
   text-align: center;
   margin: 0;
-  font-family: Futura, sans-serif;
+  font-family: Palatino, sans-serif;
   font-style: normal;
   font-weight: 300;
-
 }
 
-a {
-  text-decoration: none;
-  color: black;
+h1 {
+  font-size: 55px;
+  font-family: Courier, sans-serif;
+}
+
+#intro-text {
+  font-size: 20px;
 }
 
 .regular {
@@ -21,14 +24,16 @@ a {
 
 #navig {
   width: 100%;
+  max-height: 70px;
   position: fixed;
+  font-family: Courier, sans-serif;
   top: 0;
   background-color: #656370;
   opacity: 1;
   -webkit-box-shadow: 0 8px 6px -5.8px black;
-	   -moz-box-shadow: 0 8px 6px -5.8px black;
-	        box-shadow: 0 8px 6px -5.8px black;
-          z-index: 1;
+  -moz-box-shadow: 0 8px 6px -5.8px black;
+  box-shadow: -1px 5px 10px 0px #f0a202;
+  z-index: 1;
 }
 
 #buttons-all {
@@ -41,39 +46,78 @@ a {
 }
 
 .button-nav {
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
   border-style: none;
-  padding: 10px;
-  border-radius: 9%;
-  width: 68px;
-  text-color: black;
+  border-radius: 9% 9% 9% 9%;
+  min-width: 120px;
+  min-height: 45px;
+  color: black;
+  font-variant: small-caps;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
 
-
+.nav-txt {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 #welcome {
-  background: #84828F;
+  background: #444252;
   top: 0;
   left: 0;
   padding-top: 15vh;
   min-height: 90vh;
-
-
+  padding-bottom: 150px;
 }
 
 #about {
   background-color: #8F8E97;
-   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+}
 
+.sub-title {
+  margin-left: auto;
+  border-radius: 0px 10px 10px 0px;
+  padding-left: 40px;
+  padding-right: 30px;
+  background-color: #f0a202;
+  padding-top: 50px;
+  width: 20%;
+}
+
+.sub-topic {
+  margin-top: 0px;
+  padding-top: 200px;
+  width: 80%;
+}
+
+#sub-title2 {
+  border-radius: 10px 0px 0px 10px;
+}
+
+#sub-topic2 {
+  margin-bottom: 50px;
 }
 
 .about-h1 {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
-
+#link-txt {
+  text-decoration: underline;
+}
 
 #edu {
   display: grid;
@@ -83,26 +127,28 @@ a {
 }
 
 #table-p {
-display: flex;
-
+  display: inline-block;
+  padding-bottom: 100px;
 }
 
 #research {
   background-color: #84828F;
-  padding-top: 100px;
- padding-bottom: 100px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 #papers-sect {
   text-align: justify;
-margin-left: 70px;
-margin-right: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 #talks-sect {
   text-align: justify;
-margin-left: 70px;
-margin-right: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .refs {
@@ -114,8 +160,6 @@ margin-right: 70px;
   padding-top: 50px;
 }
 
-
-
 #contact {
   background: #656370;
   padding-bottom: 0.1px;
@@ -124,17 +168,14 @@ margin-right: 70px;
 
 #contacts-id {
   background: #656370;
-   padding-top: 20px;
+  padding-top: 20px;
   min-height: 20px;
   display: flex;
   justify-content: center;
   padding-bottom: 120px;
   -webkit-box-shadow: 0 -5.8px 2px -5px black;
-     -moz-box-shadow: 0 -5.8px 2px -5px black;
-          box-shadow: 0 -5.8px 2px -5px black;
-
-
-
+  -moz-box-shadow: 0 -5.8px 2px -5px black;
+  box-shadow: 0 -5.8px 2px -5px black;
 }
 
 #site {
@@ -142,7 +183,7 @@ margin-right: 70px;
 }
 
 .button {
-border: solid 2.5px #F0A202;
+  border: solid 2.5px #F0A202;
   padding: 3px;
   border-radius: 35%;
   width: 70px;
@@ -153,46 +194,45 @@ border: solid 2.5px #F0A202;
   background-color: #8F8E97;
   text-decoration: none;
   color: black;
-
-
-
-
-
+  font-family: Courier, sans-serif;
 }
-
-
 
 .button:hover {
   background-color: #F0A202;
   transition: background-color 1.2s;
-  text-decoration: none;
+  /* text-decoration: none; */
+  border: solid 2.5px #795203;
 
+}
+#list-center {
+  display: flex;
+  justify-content: center;
+}
 
+#dev-exp {
+  text-align: left;
 }
 
 /* ------------------- START of RESPONSIVE DESIGN PART ----------------- */
 
 @media only screen and (max-width: 400px) {
-	
-	  #navig {
+  #navig {
     width: 100%;
     position: fixed;
     top: 0;
     background-color: #656370;
     opacity: 1;
     -webkit-box-shadow: 0 8px 6px -5.8px black;
-  	   -moz-box-shadow: 0 8px 6px -5.8px black;
-  	        box-shadow: 0 8px 6px -5.8px black;
-            z-index: 1;
+    -moz-box-shadow: 0 8px 6px -5.8px black;
+    box-shadow: 0 8px 6px -5.8px black;
+    z-index: 1;
   }
 
   #buttons-all {
-
     display: flex;
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 25px;
-
   }
 
   .button-nav {
@@ -202,40 +242,30 @@ border: solid 2.5px #F0A202;
     padding: 10px;
     border-radius: 9%;
     width: 100px;
-    text-color: black;
+    color: black;
     font-size: 25px;
-
-
   }
 
-
   #contacts-id {
-  background: #656370;
-   padding-top: 20px;
-  min-height: 20px;
-  padding-bottom: 50px;
+    background: #656370;
+    padding-top: 20px;
+    min-height: 20px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
+  }
 
+  .button {
+    border-radius: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-
-
-}
-
- .button {
-   border-radius: 35%;
-   margin-top: 10px;
-   margin-bottom: 10px;
-
-
-
- }
-
-
-
-
-
+  .sub-title {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 @media only screen and (max-width: 630px) {
@@ -245,7 +275,6 @@ border: solid 2.5px #F0A202;
     grid-template-columns: 50px 50px 120px 50px;
     grid-template-rows: 100px 100px 100px;
   }
-
 }
 
 
@@ -257,186 +286,204 @@ border: solid 2.5px #F0A202;
     margin-right: 150px;
   }
 
-.refs {
-  margin-left: 150px;
-  margin-right: 150px;
+  .refs {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 }
 
-}
 /* ------------------- END of RESPONSIVE DESIGN PART ----------------- */
 
 .out8 {
-display: flex;
-margin: auto;
-height: 450px;
-width: 450px;
-background: linear-gradient( -90deg, #84828F 70%, #2C3D55 20%);
-border-radius: 50%;
-animation-name: turn7;
-animation-duration: 150s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-opacity: 0.75;
-
-
+  display: flex;
+  margin: auto;
+  height: 450px;
+  width: 450px;
+  background: linear-gradient(-90deg, #84828F 70%, #2C3D55 20%);
+  border-radius: 50%;
+  animation-name: turn7;
+  animation-duration: 150s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0.75;
 }
 
 
 .out7 {
-display: flex;
-margin: auto;
-height: 440px;
-width: 440px;
-background: linear-gradient( 380deg, #84828F 70%, #26354A 20%);
-border-radius: 50%;
-animation-name: turn6;
-animation-duration: 180s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-
-
+  display: flex;
+  margin: auto;
+  height: 440px;
+  width: 440px;
+  /* background: linear-gradient( 380deg, #84828F 70%, #26354A 20%); */
+  border-radius: 50%;
+  animation-name: turn6;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-color: #F0A202;
 }
 
 
 .out6 {
-display: flex;
-margin: auto;
-height: 430px;
-width: 430px;
-background: linear-gradient( 90deg, #84828F 70%, #536271 20%);
-border-radius: 50%;
-animation-name: turn5;
-animation-duration: 180s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-
-
+  display: flex;
+  margin: auto;
+  height: 430px;
+  width: 430px;
+  background: linear-gradient(90deg, #84828F 70%, #536271 20%);
+  border-radius: 50%;
+  animation-name: turn5;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 
 .out5 {
-display: flex;
-margin: auto;
-height: 420px;
-width: 420px;
-background: linear-gradient( -150deg, #84828F 50%, #3E4C5E 20%);
-border-radius: 50%;
-animation-name: turn4;
-animation-duration: 180s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-
+  display: flex;
+  margin: auto;
+  height: 420px;
+  width: 420px;
+  background: linear-gradient(-150deg, #84828F 50%, #3E4C5E 20%);
+  border-radius: 50%;
+  animation-name: turn4;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 
 .out4 {
-display: flex;
-margin: auto;
-height: 410px;
-width: 410px;
-background: linear-gradient( 50deg, #84828F 50%, #2C3D55 20%);
-border-radius: 50%;
+  display: flex;
+  margin: auto;
+  height: 410px;
+  width: 410px;
+  background: linear-gradient(50deg, #84828F 50%, #2C3D55 20%);
+  border-radius: 50%;
 }
 
 .out3 {
-display: flex;
-height: 400px;
-width: 400px;
-border-radius: 50%;
-background-color: #F0A202;
-margin: auto;
-
+  display: flex;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  /* background-color: #F0A202; */
+  margin: auto;
+  background-image: url('../jurij-bozic.github.io-master/Image_from_Unsplash_1.jpg');
+  background-repeat: no-repeat;
+  background-size: 620px;
 }
 
 
-.out2{
-display: flex;
-width: 300px;
-height: 300px;
-border-radius: 50%;
-background: linear-gradient( -45deg, #6A687A, #84828F 49%, #6A687A 49%, #F0A202 51%, #6A687A 40% );
-animation-name: turn3;
-animation-duration: 180s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-margin: auto;
-
+.out2 {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  /* background: linear-gradient( -45deg, #6A687A, #84828F 49%, #6A687A 49%, #F0A202 51%, #6A687A 40% ); */
+  animation-name: turn3;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin: auto;
+  background-image: url('../jurij-bozic.github.io-master/Image_from_Unsplash_2.jpg');
+  background-size: 350px;
+  border: solid 8px #84828F;
+  opacity: 0.7;
 }
 
-.out1{
-display: flex;
-width: 200px;
-height: 200px;
-margin: auto;
-background: linear-gradient( -45deg, #3E4C5E, #3E4C5E 49%, #2C3D55 49%, #2C3D55 51%, #F0A202 51% );
-border-radius: 50%;
-animation-name: turn;
-animation-duration: 180s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
-
+.out1 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background: linear-gradient(-45deg, #3E4C5E, #3E4C5E 49%, #2C3D55 49%, #2C3D55 51%, #F0A202 51%);
+  border-radius: 50%;
+  animation-name: turn;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
-.first{
-margin: auto;
-width: 100px;
-height: 100px;
-background: linear-gradient( -45deg, yellow, #D99202 49%, #F0A202 49%, black 51%, #202C3D 51% );
-border-radius: 50%;
-animation-name: turn2;
-animation-duration: 180s;
-animation-iteration-count: infinite;
-animation-timing-function: linear;
+.first {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(-45deg, yellow, #D99202 49%, #F0A202 49%, black 51%, #202C3D 51%);
+  border-radius: 50%;
+  animation-name: turn2;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
-
-
-
 
 .button-nav:hover {
-background-color: #F0A202;
-transition: background-color 1.2s;
-
-
+  background-color: #F0A202;
+  transition: background-color 1.2s;
 }
 
 .outer7:hover {
-opacity: 0.85;
-
+  opacity: 0.85;
 }
-
 
 @keyframes turn {
-from {transform: rotate(0deg); }
-to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-
 @keyframes turn2 {
-from {transform: rotate(0deg); }
-to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes turn3 {
-from {transform: rotate(0deg); }
-to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes turn4 {
-from {transform: rotate(0deg); }
-to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes turn5 {
-from {transform: rotate(0deg); }
-to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes turn6 {
-from {transform: rotate(0deg); }
-to {transform: rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes turn7 {
-from {transform: rotate(0deg); }
-to {transform: rotate(-360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
 }
