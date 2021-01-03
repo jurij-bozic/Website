@@ -1,494 +1,138 @@
 body {
-  text-align: center;
-  margin: 0;
-  font-family: Palatino, sans-serif;
-  font-style: normal;
-  font-weight: 300;
+    font-family: Georgia;
+    background-color: #51d4c5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%2351d4c5' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%2300bac4' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23009ebf' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%230082b5' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%230065a3' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%231d488a' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    /* background by SVGBackgrounds.com */
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h1, h2, h3, p {
+    opacity: 1.5 !important;
+}
+
+p, h3 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+p {
+    text-align: justify;
 }
 
 h1 {
-  font-size: 55px;
-  font-family: Courier, sans-serif;
+    padding-top: 15vh;
 }
 
-#intro-text {
-  font-size: 20px;
+h2 {
+    padding-top: 10vh;
+    font-size: 5vw;
+    font-variant: small-caps;
 }
 
-.regular {
-  text-align: justify;
-  margin-left: 70px;
-  margin-right: 70px;
-  padding-bottom: 15px;
+h3 {
+    font-size: 3vw;
+    padding-top: 5vh;
 }
 
-#navig {
-  width: 100%;
-  max-height: 70px;
-  position: fixed;
-  font-family: Courier, sans-serif;
-  top: 0;
-  background-color: #656370;
-  opacity: 1;
-  -webkit-box-shadow: 0 8px 6px -5.8px black;
-  -moz-box-shadow: 0 8px 6px -5.8px black;
-  box-shadow: -1px 5px 10px 0px #f0a202;
-  z-index: 1;
+nav {
+    box-shadow: -1px 6px 10px 0px #4b5c6b;
 }
 
-#buttons-all {
-
-  display: flex;
-  justify-content: center;
-  padding-top: 9px;
-  padding-bottom: 15px;
-
+small {
+    font-size: 3vh;
 }
 
-.button-nav {
-  margin-right: 30px;
-  margin-left: 30px;
-  border-style: none;
-  border-radius: 9% 9% 9% 9%;
-  min-width: 120px;
-  min-height: 45px;
-  color: black;
-  font-variant: small-caps;
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 5px;
+.bg-dark {
+    background-color: #0f3a53 !important;
 }
 
-.nav-txt {
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  text-decoration: none;
-  color: black;
+.container {
+    min-height: 100vh !important;
+    background-color: rgba(152, 181, 219, 0.5);
+    border-radius: 15px;
+    margin-top: 10vh;
+    box-shadow: 0 5px 5px rgb(106, 116, 122);
+    padding-bottom: 1vw;
+    margin-bottom: 1vw;
 }
 
-#welcome {
-  background: #444252;
-  top: 0;
-  left: 0;
-  padding-top: 15vh;
-  min-height: 90vh;
-  padding-bottom: 150px;
+.row {
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
-#about {
-  background-color: #8F8E97;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  display: flex;
-  justify-content: center;
-  margin-left: 0px;
+.first-column {
+
+    margin-top: 0.5vh;
 }
 
-.sub-title {
-  margin-left: auto;
-  border-radius: 0px 10px 10px 0px;
-  padding-left: 40px;
-  padding-right: 30px;
-  background-color: #f0a202;
-  padding-top: 50px;
-  width: 20%;
+.progress {
+
+    margin-top: 1vh;
 }
 
-.sub-topic {
-  margin-top: 0px;
-  padding-top: 200px;
-  width: 80%;
+.visual-symbol {
+    top: 1;
+    position: relative;
 }
 
-#sub-title2 {
-  border-radius: 10px 0px 0px 10px;
-}
-
-#sub-topic2 {
-  margin-bottom: 50px;
-}
-
-.about-h1 {
-  padding-bottom: 50px;
-}
-
-#link-txt {
-  text-decoration: underline;
-}
-
-#edu {
-  display: grid;
-  grid-template-columns: 50px 100px 180px 150px;
-  grid-template-rows: 50px 50px 50px;
-  text-align: left;
-}
-
-#table-p {
-  display: inline-block;
-  padding-bottom: 100px;
-}
-
-#research {
-  background-color: #84828F;
-  padding-bottom: 5px;
-  padding-left: 0px;
-  display: flex;
-  justify-content: center;
-}
-
-#papers-sect {
-  text-align: justify;
-  margin-left: 70px;
-  margin-right: 70px;
-}
-
-#talks-sect {
-  text-align: justify;
-  margin-left: 70px;
-  margin-right: 70px;
-}
-
-.refs {
-  padding-top: 20px;
-
-}
-
-#pres {
-  padding-top: 50px;
-}
-
-#contact {
-  background: #656370;
-  padding-bottom: 0.1px;
-
-}
-
-#contacts-id {
-  background: #656370;
-  padding-top: 20px;
-  min-height: 20px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 120px;
-  -webkit-box-shadow: 0 -5.8px 2px -5px black;
-  -moz-box-shadow: 0 -5.8px 2px -5px black;
-  box-shadow: 0 -5.8px 2px -5px black;
-}
-
-#site {
-  font-size: 12px;
-}
-
-.button {
-  border: solid 2.5px #F0A202;
-  padding: 3px;
-  border-radius: 35%;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: #8F8E97;
-  text-decoration: none;
-  color: black;
-  font-family: Courier, sans-serif;
-}
-
-.button:hover {
-  background-color: #F0A202;
-  transition: background-color 1.2s;
-  /* text-decoration: none; */
-  border: solid 2.5px #795203;
-
-}
-#list-center {
-  display: flex;
-  justify-content: center;
-}
-
-#dev-exp {
-  text-align: left;
-}
-
-/* ------------------- START of RESPONSIVE DESIGN PART ----------------- */
-
-@media only screen and (max-width: 400px) {
-  #navig {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background-color: #656370;
-    opacity: 1;
-    -webkit-box-shadow: 0 8px 6px -5.8px black;
-    -moz-box-shadow: 0 8px 6px -5.8px black;
-    box-shadow: 0 8px 6px -5.8px black;
-    z-index: 1;
-  }
-
-  #buttons-all {
-    display: flex;
-    justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 25px;
-  }
-
-  .button-nav {
-    margin-right: 40px;
-    margin-left: 40px;
-    border-style: none;
-    padding: 10px;
-    border-radius: 9%;
-    width: 100px;
-    color: black;
-    font-size: 25px;
-  }
-
-  #contacts-id {
-    background: #656370;
-    padding-top: 20px;
-    min-height: 20px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .button {
-    border-radius: 35%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .sub-title {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  
-  #papers-sect {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-
-@media only screen and (max-width: 630px) {
-
-  #edu {
-    display: grid;
-    grid-template-columns: 50px 50px 120px 50px;
-    grid-template-rows: 100px 100px 100px;
-  }
+.typing {
+    font-family: Papyrus;
+    font-size: 8vw !important;
+    border-right: .015em solid rgb(34, 73, 133);
+    margin: 0 auto;
+    font-size: 8vw;
+    width: 40vw;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .01em;
+    animation:
+        cursor-effect 2.5s steps(40, end),
+        cursor 1s step-end infinite;
 }
 
 
-@media only screen and (min-width: 900px) {
+@keyframes cursor-effect {
+    from {
+        width: 0
+    }
 
-
-  .regular {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
-
-  .refs {
-    margin-left: 150px;
-    margin-right: 150px;
-  }
+    to {
+        width: 40vw
+    }
 }
 
-/* ------------------- END of RESPONSIVE DESIGN PART ----------------- */
+@keyframes cursor {
 
-.out8 {
-  display: flex;
-  margin: auto;
-  height: 450px;
-  width: 450px;
-  background: linear-gradient(-90deg, #84828F 70%, #2C3D55 20%);
-  border-radius: 50%;
-  animation-name: turn7;
-  animation-duration: 150s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  opacity: 0.75;
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(24, 52, 95);
+        
+    }
 }
 
+@media only screen and (max-width: 375px){
 
-.out7 {
-  display: flex;
-  margin: auto;
-  height: 440px;
-  width: 440px;
-  /* background: linear-gradient( 380deg, #84828F 70%, #26354A 20%); */
-  border-radius: 50%;
-  animation-name: turn6;
-  animation-duration: 180s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  background-color: #F0A202;
-}
+    .container {
+        width: 98vw;
+    }
+    .typing {
+        font-size: 15vw !important;
+        width: 80vw;
+        animation:
+            cursor-effect 0.8s steps(60, end),
+            cursor 1s step-end infinite;
+    }
+    h2 {
+        font-size: 10vw;
+    }
+    h3 {
+        font-size: 8vw;
+    }
 
-
-.out6 {
-  display: flex;
-  margin: auto;
-  height: 430px;
-  width: 430px;
-  background: linear-gradient(90deg, #84828F 70%, #536271 20%);
-  border-radius: 50%;
-  animation-name: turn5;
-  animation-duration: 180s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-
-.out5 {
-  display: flex;
-  margin: auto;
-  height: 420px;
-  width: 420px;
-  background: linear-gradient(-150deg, #84828F 50%, #3E4C5E 20%);
-  border-radius: 50%;
-  animation-name: turn4;
-  animation-duration: 180s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-
-.out4 {
-  display: flex;
-  margin: auto;
-  height: 410px;
-  width: 410px;
-  background: linear-gradient(50deg, #84828F 50%, #2C3D55 20%);
-  border-radius: 50%;
-}
-
-.out3 {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
-  /* background-color: #F0A202; */
-  margin: auto;
-  background-image: url('../Image_from_Unsplash_1.png');
-  background-repeat: no-repeat;
-  background-size: 620px;
-}
-
-
-.out2 {
-  display: flex;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  /* background: linear-gradient( -45deg, #6A687A, #84828F 49%, #6A687A 49%, #F0A202 51%, #6A687A 40% ); */
-  animation-name: turn3;
-  animation-duration: 180s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  margin: auto;
-  background-image: url('../Image_from_Unsplash_2.png');
-  background-size: 350px;
-  border: solid 8px #84828F;
-  opacity: 0.7;
-}
-
-.out1 {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  background: linear-gradient(-45deg, #3E4C5E, #3E4C5E 49%, #2C3D55 49%, #2C3D55 51%, #F0A202 51%);
-  border-radius: 50%;
-  animation-name: turn;
-  animation-duration: 180s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.first {
-  margin: auto;
-  width: 100px;
-  height: 100px;
-  background: linear-gradient(-45deg, yellow, #D99202 49%, #F0A202 49%, black 51%, #202C3D 51%);
-  border-radius: 50%;
-  animation-name: turn2;
-  animation-duration: 180s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.button-nav:hover {
-  background-color: #F0A202;
-  transition: background-color 1.2s;
-}
-
-.outer7:hover {
-  opacity: 0.85;
-}
-
-@keyframes turn {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes turn2 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes turn3 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes turn4 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes turn5 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes turn6 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes turn7 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(-360deg);
-  }
 }

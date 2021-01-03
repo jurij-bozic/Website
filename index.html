@@ -1,186 +1,211 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 
-<title> Jurij Bozic </title>
+  <title>Jurij Božič</title>
+</head>
 
-<nav id="navig">
-  <div id="buttons-all">
-    <div class="button-nav"> <a class="nav-txt" href="#about"> about </a> </div>
-    <div class="button-nav"> <a class="nav-txt" href="#research"> academia </a> </div>
-    <div class="button-nav"> <a class="nav-txt" href="#contact"> contact </a> </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#academia">Academia</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container text-center">
+    <h1 id="home" class="text-center pb-2 mt-4 mb-2"><strong>
+        <div class="typing">Jurij Božič</div>
+      </strong>
+      <br>
+      <div><small>I'm a software-developer and a Ph.D. candidate in linguistics </small></div>
+    </h1>
+
   </div>
-</nav>
 
-<div id="welcome">
-  <div id="basic-info">
-    <h1> Jurij Bo&#382;i&#269; </h1>
-    <p id="intro-text"> I'm a web developer and <br> a Ph.D. candidate in linguistics <br><br> </p>
-  </div>
+  <hr>
 
-  <div id="spinner">
-    <div class="out8">
-      <div class="out7">
-        <div class="out6">
-          <div class="out5">
-            <div class="out4">
-              <div class="out3">
-                <div class="out2">
-                  <div class="out1">
-                    <div class="first"></div>
-                  </div>
-                </div>
-              </div>
+  <div id="about" class="container">
+    <h2>About</h2>
+
+    <h3 class="text-center">Web-Development</h3>
+    <p class="lead">
+      My main interest is in web/software development, with emphasis on Front-End work. Some languages that I have a
+      particular interest in include HTML/CSS, JavaScript and its frameworks, particularly Angular, React and Vue.
+    </p>
+
+    <h3 class="text-center">Work Experience</h3>
+    <p class="lead">
+      I am a software-developer at <a id="link-txt" href="http://www.hepra.com"> Hepra d.o.o.
+      </a> I have experience in developing software by using:
+    </p>
+    <p>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="first-column">JavaScript (Sencha Touch, ExtJS):</div>
+        </div>
+        <div class="col-md-3">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%;">
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-</div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="first-column">HTML/CSS:</div>
+        </div>
+        <div class="col-md-3">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%;">
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div id="about">
-  <div class="sub-title">
-    <h1 class="about-h1"> ABOUT </h1>
-  </div>
-  <div class="sub-topic">
-    <h2 class="wed-edu"> Web-Development </h2>
-    <p class="regular"> My main interest is in web/software development. Some languages that I have a particular
-      interest in include HTML/CSS, JavaScript and its frameworks, particularly Angular, React and Vue.
-    </p>
-    <h2 class="wed-edu"> Work Experience</h2>
-    <p class="regular"> I am a <b>software developer</b> at <a id="link-txt" href="http://www.hepra.com"> Hepra d.o.o.
-      </a> I have experience developing software by using:
-      <div id="list-center">
-        <ul id="dev-exp">
-          <li><b>JavaScript</b> (Sencha Touch, ExtJS),</li>
-          <li><b>HTML/CSS</b>,</li>
-          <li><b>MS SQL</b>,</li>
-          <li><b>Delphi</b> (Pascal)</li>
-        </ul>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="first-column">MS SQL:</div>
+        </div>
+        <div class="col-md-3">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:20%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="first-column">Delphi (Pascal)</div>
+        </div>
+        <div class="col-md-3">
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:20%;">
+            </div>
+          </div>
+        </div>
       </div>
     </p>
 
-    <h2 class="web-edu"> Education </h2>
-    <div id="table-p">
-      <p class="regular">
-        <div id="edu">
-          <div><strong>Ph.D. </strong></div>
-          <div>2015-2021 <br><em>in progress</em></div>
-          <div>Linguistics</div>
-          <div>McGill University</div>
+    <h3 class="text-center">Education</h3>
 
-          <div><strong>MA</strong></div>
-          <div>2013-2015</div>
-          <div> Linguistics </div>
-          <div> University of British Columbia </div>
+    <p>
 
-          <div><strong>BA</strong></div>
-          <div>2008-2015</div>
-          <div> English language and literature </div>
-          <div> University of Ljubljana </div>
-      </p>
-    </div>
-  </div>
-</div>
-
-
-
-</div>
-
-
-<div id="research">
-  <div class="sub-topic" id="sub-topic2">
-    <h2> Linguistics </h2>
-    <p class="regular"> I am Ph.D. candidate in theoretical linguistics at McGill University. My primary research
-      interests comprise natural language syntax and morphology, and their interface with phonology.
-    </p>
-    <h2> Papers </h2>
-    <div id="papers-sect">
-
-      <div class="refs"> <strong>Bozic, J.</strong> to appear. Strictly Local Impoverishment: An Intervention Effect.
-        Linguistic Inquiry.</div>
-      <div class="refs"> <strong>Bozic, J.</strong> to appear. Constraining Long-Distance Allomorphy. The Linguistic
-        Review. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2018. The Distribution of the English Comparative: A PF Legibility
-        Condition. In Eva Sicherl (ed.), V druzbi z jezikom in gorami: Zbornik ob jubileju Stanka Klinarja. 123-136.
-        Ljubljana: University of Ljubljana, Faculty or Arts Press.</div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2018. Generalizations on Root Suppletion: Motivating A Theory of
-        Contextual Allomorphy. In Wm. G. Bennett, Lindsay Hracs, and Dennis Ryan Storoshenko (eds.), Proceedings of
-        WCCFL 35. 114-123. Somerville, MA: Cascadilla Proceedings Project.</div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2016. Locality of Exponence in Distributed Morphology: Root
-        Suppletion in Slovenian. In Christopher Hammerly and Brandon Prickett (eds.), Proceedings of NELS 46. 137-146.
-        GLSA: Amherst, MA. </div>
-      <div class="refs"> Katie Bicevskis, Jonathan de Vries, Laurie Green, Johannes Heim, <strong>Jurij Bozic</strong>,
-        Joe D’Aquisto, Michael Fry, Emily Sadlier-Brown, Oksana Tkachman, Noriko Yamane, Bryan Gick. 2016. Effects of
-        mouthing and interlocutor presence on movements of visible vs. non-visible articulators. Canadian Acoustics
-        44(1). 17-24. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2014. Syncretism and impoverishment in Slovenian. Proceedings of the
-        30th Northwest Linguistics Conference. Simon Fraser University Working Papers in Linguistics, Vancouver, BC.
-        82-97. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2012. Old English Secg-scéara: An Etymological Proposal. Notes and
-        Queries 59(2). 156-160. </div>
-    </div>
-
-    <h2 id="pres"> Presentations </h2>
-    <div id="talks-sect">
-
-      <div class="refs"> <strong>Bozic, J.</strong> 2019. Microparameters of DP-licensing and Case Discrimination. Talk
-        given at Parameters Workshop: A workshop in honour of Lisa Travis. May 18th. McGill University, Montreal, QC.
+      <div class="row">
+        <div class="col-md-1">
+          Ph.D.
+        </div>
+        <div class="col-md-2">
+          2015-2021
+        </div>
+        <div class="col-md-3">
+          Linguistics
+        </div>
+        <div class="col-md-3">
+          McGill University
+        </div>
       </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2019. Probe Horizons in Control Formation. Poster presented at GLOW
-        42. May 10th. University of Oslo, Oslo, Norway. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2018. Control-Forming Domains are Not Only Phases: Evidence for
-        Probe Horizons. Poster presented at NELS 49. October 5th. Cornell University, Ithaca, NY. In absentia
-        presentation. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2017. Strictly Local Impoverishment. Talk given at 2nd Annual
-        Morphology in the Montreal-Ottawa-Toronto Area Workshop (Mo-MOT 2). November 18th. UQAM, Montreal, QC. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2017. Roots and Non-Locally Triggered Allomorphy. Talk given at
-        Roots V. June 18th. Queen Mary University of London, London, UK. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2017. Non-Local Allomorphy in a Strictly Local System. Talk given at
-        WCCFL 35. April 29th. University of Calgary. Calgary, AB. </div>
-      <div class="refs"> Sonderegger Morgan, Michael McAuliffe, <strong>Jurij Bozic</strong>, Chris Bruno, September
-        Cowley, Jeffrey Lamontange, Bing'er Jiang, Martha Schwarz, and Jiajia Su. 2017. Laryngeal timing across seven
-        languages: phonetic data and their relationship to phonological features. Montreal-Ottawa-Toronto Phonology
-        Workshop 2017. March 24th. Universite du Quebec a Montreal. Montreal, QC. </div>
-      <div class="refs"> Sonderegger Morgan, Michael McAuliffe, <strong>Jurij Bozic</strong>, Chris Bruno, September
-        Cowley, Jeffrey Lamontange, Bing'er Jiang, Martha Schwarz, and Jiajia Su. 2017. Laryngeal timing across seven
-        languages: phonetic data and their relationship to phonological features. LSA 2017 Annual Meeting. January 6th.
-        Austin, TX. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2016. Two Loci of Morphological Neutralization. Talk given at 1st
-        Annual Morphology in the Montreal-Ottawa-Toronto Area Workshop (Mo-MOT 1). November 20th. Carleton University,
-        Ottawa, ON. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2015. Locality of Exponence in Distributed Morphology: Root
-        Suppletion in Slovenian. Poster presented at NELS 46. October 17th. Concordia University, Montreal, QC. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2014. Transderivation in Slovenian Loanwords. Talk given at Slavic
-        Linguistic Society Conference 9. September 21st. University of Washington, Seattle, WA. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2014. Syncretism and &#x3C6;-features in Slovenian. Talk given at
-        Northwest Linguistics Conference 30. April 19th. Simon Fraser University, Vancouver, BC. </div>
 
-    </div>
-    <h2 id="pres"> Theses </h2>
-    <div id="talks-sect">
-      <div class="refs"> <strong>Bozic, J.</strong> 2015. Spell-out of Phonological Domains: The Case of Slovenian. MA
-        Thesis. University of British Columbia. </div>
-      <div class="refs"> <strong>Bozic, J.</strong> 2013. A Unified Approach to English Degemination. BA Thesis.
-        University of Ljubljana. </div>
-    </div>
-  </div>
-  <div class="sub-title" id="sub-title2">
-    <h1 class="about-h1"> ACADEMIA </h1>
-  </div>
-</div>
+      <div class="row">
+        <div class="col-md-1">
+          M.A.
+        </div>
+        <div class="col-md-2">
+          2013-2015
+        </div>
+        <div class="col-md-3">
+          Linguistics
+        </div>
+        <div class="col-md-3">
+          University of British Columbia
+        </div>
+      </div>
 
-<div id="contact">
-  <div id="contacts-id">
-    <a target="_blank" href="mailto:jurij.bozic@hepra.com" class="button"> E-mail </a>
-    <a href="https://www.google.com/maps/place/Hepra+ra%C4%8Dunalni%C5%A1ki+in%C5%BEeniring+d.o.o./@46.2233388,14.3532315,15z/data=!4m5!3m4!1s0x0:0xe399f1c001f1e572!8m2!3d46.2233388!4d14.3532315"
-      class="button"> Address </a>
-    <a target="_blank" href="https://github.com/jurij-bozic" class="button" id="profile-link"> Github </a>
+      <div class="row">
+        <div class="col-md-1">
+          B.A.
+        </div>
+        <div class="col-md-2">
+          2008-2013
+        </div>
+        <div class="col-md-3">
+          English language and lit.
+        </div>
+        <div class="col-md-3">
+          University of Ljubljana
+        </div>
+      </div>
+    </p>
+
   </div>
 
-  <p id="site">
-    Website created by Jurij Bo&#382;i&#269;.
-  </p>
-</div>
+  <hr>
+
+  <div class="container">
+    <h2 id="academia">Academia</h2>
+    <h3>Linguistics</h3>
+    <p class="lead">
+      I am Ph.D. candidate in theoretical linguistics at McGill University. My primary research interests comprise
+      natural language syntax and morphology, and their interface with phonology.
+    </p>
+
+    <h3>Papers</h3>
+    <p class="lead">
+      Some of my relevant papers:
+      <br> <br>
+    </p>
+
+    <p>
+      Bozic, J. 2020. Strictly Local Impoverishment: An Intervention Effect. Linguistic Inquiry. 395-409. MIT Press.
+      <br> <br>
+      Bozic, J. 2019 Constraining Long-Distance Allomorphy. The Linguistic Review. 485–505. de Gruyter.
+      <br> <br>
+      Bozic, J. 2012. Old English Secg-scéara: An Etymological Proposal. Notes and Queries 59(2). 156-160. OUP.
+    </p>
+
+    <br> <br> <br>
+    <p class="lead">For a full list of academic publications and talks, feel free to contact me at: <a
+        href="jurij.bozic@mail.mcgill.ca">jurij.bozic@mail.mcgill.ca</a></p>
+
+    <h3>Theses</h3>
+
+    <p>
+
+      Bozic, J. 2015. Spell-out of Phonological Domains: The Case of Slovenian. MA Thesis. University of British
+      Columbia.
+
+      <br><br>
+
+      Bozic, J. 2013. A Unified Approach to English Degemination. BA Thesis. University of Ljubljana.
+    </p>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
