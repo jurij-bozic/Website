@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/pages/Lexicon/sections/style.css"],"names":[],"mappings":"AAAA,cAEI,SACJ,CAEA,sBACI,qBAAsB,CACtB,wBACJ","file":"main.c4e3805f.chunk.css","sourcesContent":[".searchResult {\n    /* border: solid black 2px; */\n    z-index: 5;\n}\n\n.searchResult b:hover {\n    border: solid 1px grey;\n    background-color: darkgray;\n}"]}

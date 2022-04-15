@@ -85,6 +85,12 @@ function Profile() {
                 <MKTypography
                   component="a"
                   href="/pages/lexicon"
+                  action={{
+                    type: "internal",
+                    route: "/pages/lexicon",
+                    label: "Blockchain Lexicon",
+                    color: "info",
+                  }}
                   variant="body1"
                   fontWeight="light"
                   color="info"
