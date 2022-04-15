@@ -1,0 +1,9 @@
+.searchResult {
+    /* border: solid black 2px; */
+    z-index: 5;
+}
+
+.searchResult b:hover {
+    border: solid 1px grey;
+    background-color: darkgray;
+}

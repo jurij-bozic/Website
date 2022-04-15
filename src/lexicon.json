@@ -1,0 +1,167 @@
+{
+    "lexicon": [
+        {
+            "entry": "cryptocurrency",
+            "entry_notes": "",
+            "translation": "kriptovaluta",
+            "translation_notes": "SOURCE: https://fran.si/iskanje?View=1&Query=kriptovaluta"
+        },
+        {
+            "entry": "decentralized",
+            "entry_notes": "",
+            "translation": "decentraliziran",
+            "translation_notes": ""
+        },
+        {
+            "entry": "crypto mining",
+            "entry_notes": "",
+            "translation": "rudarjenje kriptovalut",
+            "translation_notes": ""
+        },
+        {
+            "entry": "open source",
+            "entry_notes": "",
+            "translation": "odprtokoden",
+            "translation_notes": "SOURCE: https://fran.si/iskanje?All=odprtokodne&IsAdvanced=True"
+        },
+        {
+            "entry": "Proof of Work",
+            "entry_notes": "",
+            "translation": "Dokaz z delom",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "Proof of Stake",
+            "entry_notes": "",
+            "translation": "Dokaz z zastavitvijo",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "White Paper",
+            "entry_notes": "",
+            "translation": "bela knjiga",
+            "translation_notes": "SOURCE: https://isjfr.zrc-sazu.si/sl/terminologisce/slovarji/pravni/iskalnik?iztocnica=béla%20knj%C3%ADga"
+        },
+        {
+            "entry": "Decentralized finance (DeFi)",
+            "entry_notes": "",
+            "translation": "decentralizirane finance",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "Decentralized application (DApps)",
+            "entry_notes": "",
+            "translation": "decentralizirana aplikacija",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "Smart Contract",
+            "entry_notes": "",
+            "translation": "pametna pogodba",
+            "translation_notes": ""
+        },
+        {
+            "entry": "bandwidth",
+            "entry_notes": "",
+            "translation": "pasovna širina",
+            "translation_notes": ""
+        },
+        {
+            "entry": "blockchain",
+            "entry_notes": "",
+            "translation": "blockchain",
+            "translation_notes": "SOURCE: https://fran.si/132/sprotni-sprotni-slovar-slovenskega-jezika/4571561/blockchain?View=1&Query=blockchain"
+        },
+        {
+            "entry": "Layer One Solution",
+            "entry_notes": "",
+            "translation": "prvoslojna rešitev",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "Layer Two Solution",
+            "entry_notes": "",
+            "translation": "drugoslojna rešitev",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "Staking Pool",
+            "entry_notes": "",
+            "translation": "zastavitveni sklad",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "node",
+            "entry_notes": "",
+            "translation": "vozlišče",
+            "translation_notes": ""
+        },
+        {
+            "entry": "liquidity",
+            "entry_notes": "",
+            "translation": "likvidnost",
+            "translation_notes": ""
+        },
+        {
+            "entry": "Governance Token",
+            "entry_notes": "",
+            "translation": "upravni žeton",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "crypto coin",
+            "entry_notes": "",
+            "translation": "kriptokovanec",
+            "translation_notes": ""
+        },
+        {
+            "entry": "crypto token",
+            "entry_notes": "",
+            "translation": "kriptožeton",
+            "translation_notes": ""
+        },
+        {
+            "entry": "compiler",
+            "entry_notes": "",
+            "translation": "prevajalnik",
+            "translation_notes": ""
+        },
+        {
+            "entry": "blockchain bridge",
+            "entry_notes": "",
+            "translation": "premostitev med blockchanoma/blockchaini",
+            "translation_notes": "SOURCE: translated by author of this lexicon"
+        },
+        {
+            "entry": "peer-to-peer (P2P) network",
+            "entry_notes": "",
+            "translation": "omrežje 'vsak z vsakim'",
+            "translation_notes": ""
+        },
+        {
+            "entry": "synchronous",
+            "entry_notes": "",
+            "translation": "sinhrono'",
+            "translation_notes": ""
+        },
+        {
+            "entry": "asynchronous",
+            "entry_notes": "",
+            "translation": "asinhrono'",
+            "translation_notes": ""
+        },
+        {
+            "entry": "throughput",
+            "entry_notes": "",
+            "translation": "pretok'",
+            "translation_notes": ""
+        },
+        {
+            "entry": "stack",
+            "entry_notes": "",
+            "translation": "sklad'",
+            "translation_notes": ""
+        }
+    ]
+  }
+  
