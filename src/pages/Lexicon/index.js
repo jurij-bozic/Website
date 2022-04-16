@@ -59,7 +59,7 @@ function Lexicon() {
         light
       />
       <MKBox
-        minHeight="75vh"
+        minHeight="70vh"
         width="100%"
         sx={{
           backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>

@@ -33,6 +33,8 @@ import MKTypography from "components/MKTypography";
 // Images
 import profilePicture from "assets/images/jurij-bozic-img.png";
 
+import routes from "routes"
+
 library.add(faCheckSquare, faCoffee, faCode);
 
 function Profile() {
@@ -81,10 +83,10 @@ function Profile() {
               developing algorithms that simulate human cognition, the ability to produce language in particular. */}
 
                  <br />
-                 
+                 {/* <a href="/pages/lexicon">
                 <MKTypography
                   component="a"
-                  href="/pages/lexicon"
+                  routes={routes}
                   action={{
                     type: "internal",
                     route: "/pages/lexicon",
@@ -112,6 +114,7 @@ function Profile() {
                 >
                 Blockchain expressions in Slovenian <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
                 </MKTypography>
+                </a> */}
               </MKTypography>
             </Grid>
           </Grid>
