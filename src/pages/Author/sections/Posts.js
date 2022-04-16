@@ -94,7 +94,7 @@ function Places() {
             />
           </Grid>
           <Grid item xs={12} sm={6} lg={3}>
-            <a href="/pages/lexicon">
+            <a href="/#/pages/lexicon">
             <BackgroundBlogCard
               image={post4}
               title="Blockchain Expressions"
