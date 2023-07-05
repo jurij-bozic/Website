@@ -1,0 +1,20 @@
+[
+	{
+		"id": 0,
+		"name": "LinkedIn",
+		"link": "https://si.linkedin.com/in/jurij-bo%C5%BEi%C4%8D-2a6919225",
+		"icon": "/assets/social/linkedin.svg"
+	},
+	{
+		"id": 1,
+		"name": "Github",
+		"link": "https://github.com/jurij-bozic",
+		"icon": "/assets/social/github.svg"
+	},
+	{
+		"id": 2,
+		"name": "E-mail",
+		"link": "mailto: jurij.bozic.work@gmail.com",
+		"icon": "/assets/social/email.svg"
+	}
+]

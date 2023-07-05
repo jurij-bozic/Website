@@ -1,0 +1,32 @@
+[
+	{
+		"id": 0,
+		"name": "JavaScript",
+		"icon": "/assets/social/javascript.svg"
+	},
+	{
+		"id": 1,
+		"name": "React",
+		"icon": "/assets/social/react.svg"
+	},
+	{
+		"id": 2,
+		"name": "TypeScript",
+		"icon": "/assets/social/typescript.svg"
+	},
+	{
+		"id": 3,
+		"name": "Php",
+		"icon": "/assets/social/php.svg"
+	},
+	{
+		"id": 4,
+		"name": "Java",
+		"icon": "/assets/social/java.svg"
+	},
+	{
+		"id": 5,
+		"name": "SQL",
+		"icon": "/assets/social/sql.svg"
+	}
+]
